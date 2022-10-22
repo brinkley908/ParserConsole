@@ -13,7 +13,15 @@ services.AddScoped<IFileIOService, FileIOService>();
 using ServiceProvider serviceProvider = services.BuildServiceProvider();
 var cParser = serviceProvider.GetRequiredService<cParserDemo>();
 
-cParser.FileName = "E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\test.cs";
-cParser.RunScript();
+while (true)
+{
+    Console.WriteLine("\r\nEnter File Name (exit, quit or q to quit)");
+    var file = Console.ReadLine();
+    
+    if(file.ToLower()=="exit" || file.ToLower() == "quit" || file.ToLower() == "q") break;
 
-Console.ReadKey();
+    if (string.IsNullOrWhiteSpace(file)) file = "test";
+
+    cParser.FileName = $"E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\{file}.cs";
+    cParser.RunScript();
+}
