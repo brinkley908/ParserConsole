@@ -1,0 +1,60 @@
+﻿// Comment
+
+int i, j;
+char ch = 'X';
+string s= "hasta lavista";
+
+main()
+{
+
+  printf("hello");
+   printf(s);
+
+   int i=5, j=100;
+
+   i = 10;
+   
+   j = i * 2;
+   i = j / 2;
+   ++i;
+   printf("++i =", i);
+
+   ++i;
+   printf("++i =", i);
+
+   i++;
+   printf("i++ =", i);
+
+   j= 10;
+   printf("eval ", j + (4*5)-3);
+
+   for(i=0; i< 20; i++)
+   {
+		j = i * 2;
+		printf(i, ") j = ", j);
+
+		if(i <= 5)
+		{
+		   printf("i <= 5");
+		}
+		else 
+		{ 
+			printf("i > 5");
+		}
+   }
+
+   i = 10;
+   while(i > 0) 
+   {
+		printf("While i = ", i);
+		i = i-1;
+   }
+
+   do
+   {
+
+		printf("Do i = ", i);
+		i = i+1;
+   } while(i < 15)
+
+}
