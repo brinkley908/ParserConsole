@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿import "E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\funcs.cs";
+
 
 json js = { "contacts": [{ "name": "john" }, { "name": "jane" }]};
 int i, j;
@@ -9,8 +10,7 @@ decimal d = 0.5;
 main()
 {
 
-
-    printf("mult: ", mult(15));
+    printf("mult: ", sum(15, 5));
 
     testfunc();
 
@@ -80,10 +80,6 @@ main()
     {
         printf("OR");
     }
-
-
-
-
 }
 
 testfunc()

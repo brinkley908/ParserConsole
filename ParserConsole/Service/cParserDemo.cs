@@ -13,9 +13,9 @@ namespace ParserConsole.Service
     {
 
 
-        private readonly cParser _parser;
+        private readonly Parser.IParserService _parser;
 
-        public cParserDemo(cParser parser)
+        public cParserDemo(IParserService parser)
         {
             _parser = parser;
         }
