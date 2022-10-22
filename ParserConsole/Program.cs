@@ -23,5 +23,17 @@ while (true)
     if (string.IsNullOrWhiteSpace(file)) file = "test";
 
     cParser.FileName = $"E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\{file}.cs";
-    cParser.RunScript();
+    //cParser.Compile();
+    try
+    {
+        cParser.RunScript();
+    }
+    catch(ParserException p)
+    {
+        Console.WriteLine(p.Message);
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine(ex.ToString());
+    }
 }

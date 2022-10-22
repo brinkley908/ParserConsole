@@ -6,6 +6,6 @@ main()
 
     json i = { "contacts": [{ "name": "john" }, { "name": "jane" }]};
 
-   
+printf(i
 
 }

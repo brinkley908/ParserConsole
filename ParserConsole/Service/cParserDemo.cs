@@ -38,6 +38,12 @@ namespace ParserConsole.Service
             string foo = "Time taken: " + timeTaken.ToString(@"m\:ss\.fff");
             Console.WriteLine(foo);
         }
+
+        public void Compile()
+        {
+            _parser.Compile(FileName);
+        }
+
     }
 
 }
