@@ -6,14 +6,15 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Parser;
-    
+using Parser.Service;
+
 namespace ParserConsole.Service
 {
     public class cParserDemo
     {
 
 
-        private readonly Parser.IParserService _parser;
+        private readonly IParserService _parser;
 
         public cParserDemo(IParserService parser)
         {

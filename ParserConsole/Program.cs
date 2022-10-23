@@ -2,6 +2,7 @@
 
 using Microsoft.Extensions.DependencyInjection;
 using Parser;
+using Parser.Service;
 using ParserConsole.Service;
 
 var services = new ServiceCollection();

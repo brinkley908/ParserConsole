@@ -13,6 +13,7 @@
   <ItemGroup>
     <Compile Remove="ParserDemo.cs" />
     <Compile Remove="Scripts\funcs.cs" />
+    <Compile Remove="Scripts\inc.cs" />
     <Compile Remove="Scripts\min.cs" />
     <Compile Remove="Scripts\test.cs" />
     <Compile Remove="Scripts\test.min.cs" />
@@ -28,6 +29,7 @@
 
   <ItemGroup>
     <Resource Include="Scripts\funcs.cs" />
+    <Resource Include="Scripts\inc.cs" />
     <Resource Include="Scripts\min.cs" />
     <Resource Include="Scripts\test.cs" />
     <Resource Include="Scripts\test.min.cs" />

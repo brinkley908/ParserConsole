@@ -1,4 +1,6 @@
-﻿import "E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\funcs.cs";
+﻿using System;
+
+import "E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\funcs.cs";
 
 
 json js = { "contacts" : [{"name" : "john"}, {"name" : "jane"}]};
@@ -8,6 +10,8 @@ decimal d = 0.5;
 
 main()
 {
+    datetime n = Now();
+    printf(n);
     printf("mult: ", sum(15, 5));
 
     testfunc();
@@ -78,6 +82,8 @@ main()
     {
         printf("OR");
     }
+
+printf("div ", div(10, 2));
 }
 
 testfunc()
