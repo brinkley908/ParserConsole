@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33006.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParserConsole", "ParserConsole\ParserConsole.csproj", "{B142AC66-E798-416D-8300-C47D8B86FC0C}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Parser", "..\Parser\Parser\Parser.shproj", "{CEBB30DD-0E9A-45E8-A49A-BC664EB23395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchMark", "BenchMark\BenchMark.csproj", "{CE2C3DD3-EBE8-444F-9914-72874D19E931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchMark", "BenchMark\BenchMark.csproj", "{CE2C3DD3-EBE8-444F-9914-72874D19E931}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Security", "..\Security\Security\Security.shproj", "{FBE81F08-B1B2-4470-8922-FAF3409809CD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Parser", "..\Parser\Parser\Parser.shproj", "{E6DFF66E-4027-41B7-9DED-C2442A0F077D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\Parser\Parser\Parser.projitems*{b142ac66-e798-416d-8300-c47d8b86fc0c}*SharedItemsImports = 5
-		..\Parser\Parser\Parser.projitems*{cebb30dd-0e9a-45e8-a49a-bc664eb23395}*SharedItemsImports = 13
+		..\Security\Security\Security.projitems*{b142ac66-e798-416d-8300-c47d8b86fc0c}*SharedItemsImports = 5
+		..\Parser\Parser\Parser.projitems*{e6dff66e-4027-41b7-9ded-c2442a0f077d}*SharedItemsImports = 13
+		..\Security\Security\Security.projitems*{fbe81f08-b1b2-4470-8922-faf3409809cd}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
