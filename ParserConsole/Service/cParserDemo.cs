@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Parser;
 using Parser.Service;
+using Utilities;
 
 namespace ParserConsole.Service
 {
@@ -26,6 +27,11 @@ namespace ParserConsole.Service
         public void RunScript()
         {
             var timer = new Stopwatch();
+
+            if (_parser.Cmd(FileName))
+            {
+                return;
+            }
 
             if (!_parser.LoadFile(FileName))
                 return;
