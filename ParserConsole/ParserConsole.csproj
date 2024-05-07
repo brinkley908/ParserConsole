@@ -14,6 +14,9 @@
 
   <ItemGroup>
     <Compile Remove="ParserDemo.cs" />
+    <Compile Remove="Scripts\amp.cs" />
+    <Compile Remove="Scripts\BJT.cs" />
+    <Compile Remove="Scripts\ea.cs" />
     <Compile Remove="Scripts\funcs.cs" />
     <Compile Remove="Scripts\inc.cs" />
     <Compile Remove="Scripts\min.cs" />
@@ -40,6 +43,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Scripts\amp.cs" />
+    <Resource Include="Scripts\BJT.cs" />
+    <Resource Include="Scripts\ea.cs" />
     <Resource Include="Scripts\funcs.cs" />
     <Resource Include="Scripts\inc.cs" />
     <Resource Include="Scripts\min.cs" />

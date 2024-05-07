@@ -64,7 +64,7 @@ while (true)
     if (file.ToLower()=="exit" || file.ToLower() == "quit" || file.ToLower() == "q") break;
 
 
-    cParser.FileName = $"E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\{file}.cs";
+    cParser.FileName = $"e:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\{file}.cs";
     //cParser.Compile();
     try
     {

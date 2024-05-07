@@ -1,6 +1,5 @@
-﻿using System;
-
-import "E:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\funcs.cs";
+﻿
+import "e:\\Dev\\ParserConsole\\ParserConsole\\Scripts\\funcs.cs";
 
 
 json js = { "contacts" : [{"name" : "john"}, {"name" : "jane"}]};
