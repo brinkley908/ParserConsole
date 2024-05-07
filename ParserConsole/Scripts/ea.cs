@@ -27,8 +27,8 @@
     decimal C2 = Cap2(RC, 100, 20);
 
     printf("PI = ", pp);
-    printf("RC = ", RC);
-    printf("RE = ", RE);
+    printf("RC = ", Ohms(RC));
+    printf("RE = ", Ohms(RE));
     printf("Ic(sat) = ", Current(Icsat));
     printf("Iq = ", Current(Iq));
     printf("Ib = ", Current(Ib));
@@ -36,9 +36,13 @@
     printf("Ve = ", Volts(Ve));
     printf("Vb = ", Volts(Vb), Round(Vb, 2));
     printf("Diode Drop = ", Volts(DiodeDrop));
-    printf("R2 = ", R2);
+    printf("R2 = ", Ohms(R2));
     printf("IR2 = ", Current(IR2));
-    printf("R1 = ", R1);
+    printf("R1 = ", Ohms(R1));
+
+    printf("Rx = ", Ohms(200));
+    printf("Rx2 = ", Ohms(220.6));
+    printf("Rm = ", Ohms(2327466.6));
 
     printf("C1 = ", Farads(C1));
     printf("C2 = ", Farads(C2));
